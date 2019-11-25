@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name SparkFun-PowerSymbols)(type Legacy)(uri ${KIPRJMOD}/Libraries/SparkFun-PowerSymbols.lib)(options "")(descr ""))
+  (lib (name BrechtVE_Aesthetics)(type Legacy)(uri ${KIPRJMOD}/Libraries/BrechtVE_Aesthetics.lib)(options "")(descr ""))
+  (lib (name Converter_DCDC_extra)(type Legacy)(uri ${KIPRJMOD}/Libraries/Converter_DCDC_extra.lib)(options "")(descr ""))
+)

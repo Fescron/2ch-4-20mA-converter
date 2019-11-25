@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name BrechtVE_Aesthetics)(type KiCad)(uri ${KIPRJMOD}/Footprints/BrechtVE_Aesthetics.pretty)(options "")(descr ""))
+  (lib (name Connector_Phoenix_PTSA_extra)(type KiCad)(uri ${KIPRJMOD}/Footprints/Connector_Phoenix_PTSA_extra.pretty)(options "")(descr ""))
+  (lib (name Package_SIP_extra)(type KiCad)(uri ${KIPRJMOD}/Footprints/Package_SIP_extra.pretty)(options "")(descr ""))
+)
