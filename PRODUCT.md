@@ -1,5 +1,5 @@
 
-# This is a place for a contact point wishing to receive information about manufactured Products (see section 4.2)
+# Contact points wishing to receive information about manufactured Products (see section 4.2)
 
 ## Extract from license
 
