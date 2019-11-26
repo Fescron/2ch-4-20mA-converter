@@ -2,9 +2,9 @@
 # 2ch-4-20mA-converter
 
 ![License](https://img.shields.io/badge/licence-CERN%20OHL%20v.1.2-blue)
-![GitHub last commit](https://img.shields.io/github/last-commit/Fescron/Project-LabAnalogDesign2.svg)
-![GitHub Release Date](https://img.shields.io/github/release-date/Fescron/Project-LabAnalogDesign2.svg)
-![GitHub release](https://img.shields.io/github/release/Fescron/Project-LabAnalogDesign2.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/Fescron/2ch-4-20mA-converter.svg)
+![GitHub Release Date](https://img.shields.io/github/release-date/Fescron/2ch-4-20mA-converter.svg)
+![GitHub release](https://img.shields.io/github/release/Fescron/2ch-4-20mA-converter.svg)
 
 <br/>
 
