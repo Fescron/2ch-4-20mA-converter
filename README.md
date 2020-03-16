@@ -40,3 +40,12 @@ A lot of designs still use the `INA196` *Current Shunt Monitor* from *Texas Inst
 | R1, R2       | 6,2 Ω                | 0805          | 0,1%                                        | [Mouser.be](https://www.mouser.be/ProductDetail/TE-Connectivity-Neohm/CPF0805B6R2E1?qs=sGAEpiMZZMu61qfTUdNhGxAfPTOoMd3Mys3VDWDGxkc%3D)      |
 | R1, R2 (alt) | 4,99 Ω               | 0805          | 0,1%                                        | [Mouser.be](https://www.mouser.be/ProductDetail/TE-Connectivity-Neohm/CPF0805B4R99E1?qs=sGAEpiMZZMu61qfTUdNhGxAfPTOoMd3MWO8ubRKmtsI%3D)     |
 | J1, J2       | PTSA_1,5/_2-3,5-Z_BK | Pitch: 3,5 mm | 2 contacts @ 45° (20-16 AWG), 250V 2A       | [Mouser.be](https://www.mouser.be/ProductDetail/Phoenix-Contact/1751765?qs=sGAEpiMZZMvZTcaMAxB2AOnzhHajZlLEGRULH%2FxUGnk%3D)                |
+
+<br/>
+
+## UPDATE 03/2020 - 1 CH board without power supply
+
+To better conduct tests with the `LMP8640` chip a simple 1-CH board was layed out without a power supply and etched on a single sided board.
+
+- Click [here](hardware/1ch-4-20mA/Plots/1ch-4-20mA.pdf) to go to the **schematic**.
+- Click [here](hardware/1ch-4-20mA/Plots/1ch-4-20mA-F_Cu.pdf) to go to the **board layout** (mirrored).
