@@ -1,0 +1,300 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "KiCad Project Template"
+Date "2020-03-10"
+Rev "v1.0"
+Comp "Brecht Van Eeckhoudt"
+Comment1 "kicad.brechtve.be"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E4BDDEC
+P 10100 7050
+F 0 "H1" H 10200 7050 50  0000 L CNN
+F 1 "MountingHole" H 10200 7005 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10100 7050 50  0001 C CNN
+F 3 "~" H 10100 7050 50  0001 C CNN
+	1    10100 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E4BDFB7
+P 10400 7050
+F 0 "H2" H 10500 7050 50  0000 L CNN
+F 1 "MountingHole" H 10500 7005 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10400 7050 50  0001 C CNN
+F 3 "~" H 10400 7050 50  0001 C CNN
+	1    10400 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E4BE12E
+P 10700 7050
+F 0 "H3" H 10800 7050 50  0000 L CNN
+F 1 "MountingHole" H 10800 7005 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10700 7050 50  0001 C CNN
+F 3 "~" H 10700 7050 50  0001 C CNN
+	1    10700 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5E4BE2D2
+P 11000 7050
+F 0 "H4" H 11100 7050 50  0000 L CNN
+F 1 "MountingHole" H 11100 7005 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 11000 7050 50  0001 C CNN
+F 3 "~" H 11000 7050 50  0001 C CNN
+	1    11000 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BrechtVE_Aesthetics:Symbol_OSHW-Logo_11.4x12mm G1
+U 1 1 5E4BD295
+P 10950 6400
+F 0 "G1" H 10950 6195 60  0001 C CNN
+F 1 "Symbol_OSHW-Logo_11.4x12mm" H 10950 6605 60  0001 C CNN
+F 2 "BrechtVE_Aesthetics:OSHW-Logo_5.7x6mm_SolderMask" H 10950 6400 50  0001 C CNN
+F 3 "" H 10950 6400 50  0001 C CNN
+	1    10950 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Current:LMP8640 U1
+U 1 1 5E687E12
+P 5700 3200
+F 0 "U1" H 5700 3350 50  0000 L CNN
+F 1 "LMP8640" H 5700 3050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 5850 3100 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmp8640.pdf" H 5700 3205 50  0001 C CNN
+	1    5700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5E688CFB
+P 6650 3200
+F 0 "J2" H 6730 3242 50  0000 L CNN
+F 1 "Conn_01x03" H 6730 3151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right" H 6650 3200 50  0001 C CNN
+F 3 "~" H 6650 3200 50  0001 C CNN
+	1    6650 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5E68918C
+P 5600 4300
+F 0 "C1" H 5692 4346 50  0000 L CNN
+F 1 "100 nF" H 5692 4255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5600 4300 50  0001 C CNN
+F 3 "~" H 5600 4300 50  0001 C CNN
+	1    5600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR01
+U 1 1 5E6894F2
+P 5600 2900
+F 0 "#PWR01" H 5600 2750 50  0001 C CNN
+F 1 "VDDA" H 5615 3073 50  0000 C CNN
+F 2 "" H 5600 2900 50  0001 C CNN
+F 3 "" H 5600 2900 50  0001 C CNN
+	1    5600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR02
+U 1 1 5E689750
+P 5600 3500
+F 0 "#PWR02" H 5600 3250 50  0001 C CNN
+F 1 "GNDA" H 5605 3327 50  0000 C CNN
+F 2 "" H 5600 3500 50  0001 C CNN
+F 3 "" H 5600 3500 50  0001 C CNN
+	1    5600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5E689BE3
+P 5000 3200
+F 0 "R2" H 4941 3154 50  0000 R CNN
+F 1 "4,99 Ω" H 4941 3245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5000 3200 50  0001 C CNN
+F 3 "~" H 5000 3200 50  0001 C CNN
+	1    5000 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5E68A00A
+P 4700 3100
+F 0 "R1" V 4896 3100 50  0000 C CNN
+F 1 "270 Ω" V 4805 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4700 3100 50  0001 C CNN
+F 3 "~" H 4700 3100 50  0001 C CNN
+	1    4700 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDDA #PWR03
+U 1 1 5E68BE8D
+P 5600 4200
+F 0 "#PWR03" H 5600 4050 50  0001 C CNN
+F 1 "VDDA" H 5615 4373 50  0000 C CNN
+F 2 "" H 5600 4200 50  0001 C CNN
+F 3 "" H 5600 4200 50  0001 C CNN
+	1    5600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR04
+U 1 1 5E68C2D4
+P 5600 4700
+F 0 "#PWR04" H 5600 4450 50  0001 C CNN
+F 1 "GNDA" H 5605 4527 50  0000 C CNN
+F 2 "" H 5600 4700 50  0001 C CNN
+F 3 "" H 5600 4700 50  0001 C CNN
+	1    5600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR05
+U 1 1 5E68F995
+P 6350 3000
+F 0 "#PWR05" H 6350 2850 50  0001 C CNN
+F 1 "VDDA" H 6365 3173 50  0000 C CNN
+F 2 "" H 6350 3000 50  0001 C CNN
+F 3 "" H 6350 3000 50  0001 C CNN
+	1    6350 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR06
+U 1 1 5E68FD96
+P 6350 3400
+F 0 "#PWR06" H 6350 3150 50  0001 C CNN
+F 1 "GNDA" H 6355 3227 50  0000 C CNN
+F 2 "" H 6350 3400 50  0001 C CNN
+F 3 "" H 6350 3400 50  0001 C CNN
+	1    6350 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3200 6450 3200
+Wire Wire Line
+	5400 3100 5000 3100
+Connection ~ 5000 3100
+Wire Wire Line
+	5000 3100 4850 3100
+Wire Wire Line
+	5400 3300 5000 3300
+Connection ~ 5000 3300
+Wire Wire Line
+	4350 3150 4450 3150
+Wire Wire Line
+	4450 3150 4450 3100
+Wire Wire Line
+	4450 3100 4550 3100
+Wire Wire Line
+	4350 3250 4450 3250
+Wire Wire Line
+	4450 3250 4450 3300
+Wire Wire Line
+	4450 3300 5000 3300
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5E6883B4
+P 4150 3250
+F 0 "J1" H 4068 2925 50  0000 C CNN
+F 1 "Conn_01x02" H 4068 3016 50  0000 C CNN
+F 2 "Connector_Phoenix_PTSA_extra:PhoenixContact_PTSA_1,5_2-G-3,5_1x02_P3.50mm_Angled" H 4150 3250 50  0001 C CNN
+F 3 "~" H 4150 3250 50  0001 C CNN
+	1    4150 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5E6B410E
+P 5150 4200
+F 0 "#FLG01" H 5150 4275 50  0001 C CNN
+F 1 "PWR_FLAG" H 5150 4373 50  0000 C CNN
+F 2 "" H 5150 4200 50  0001 C CNN
+F 3 "~" H 5150 4200 50  0001 C CNN
+	1    5150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5E6B455A
+P 5150 4700
+F 0 "#FLG02" H 5150 4775 50  0001 C CNN
+F 1 "PWR_FLAG" H 5150 4873 50  0000 C CNN
+F 2 "" H 5150 4700 50  0001 C CNN
+F 3 "~" H 5150 4700 50  0001 C CNN
+	1    5150 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 4700 5150 4700
+Wire Wire Line
+	5600 4200 5150 4200
+Wire Wire Line
+	6450 3100 6350 3100
+Wire Wire Line
+	6350 3100 6350 3000
+Wire Wire Line
+	6450 3300 6350 3300
+Wire Wire Line
+	6350 3300 6350 3400
+Connection ~ 5600 4200
+$Comp
+L Device:R_Small R3
+U 1 1 5E6C56CA
+P 5600 4600
+F 0 "R3" H 5659 4691 50  0000 L CNN
+F 1 "0 Ω" H 5659 4600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5600 4600 50  0001 C CNN
+F 3 "~" H 5600 4600 50  0001 C CNN
+F 4 "Jumper" H 5659 4509 50  0000 L CNN "Function"
+	1    5600 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 4700
+Wire Wire Line
+	5600 4500 5600 4400
+Wire Wire Line
+	4800 2800 4850 2800
+Wire Wire Line
+	4850 2800 4850 3100
+Connection ~ 4850 3100
+Wire Wire Line
+	4850 3100 4800 3100
+Wire Wire Line
+	4600 2800 4550 2800
+Wire Wire Line
+	4550 2800 4550 3100
+Connection ~ 4550 3100
+Wire Wire Line
+	4550 3100 4600 3100
+$Comp
+L Device:Jumper_NC_Small JP1
+U 1 1 5E679814
+P 4700 2800
+F 0 "JP1" H 4700 2921 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 4700 2921 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right" H 4700 2800 50  0001 C CNN
+F 3 "~" H 4700 2800 50  0001 C CNN
+	1    4700 2800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
