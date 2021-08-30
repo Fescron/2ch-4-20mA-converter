@@ -1,4 +1,4 @@
-update=zo 24 nov 2019 23:29:51 CET
+update=za 11 apr 2020 15:43:57 CEST
 version=1
 last_client=kicad
 [general]
@@ -12,9 +12,19 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=PageLayout/BrechtVE_PageLayout_CERN-OHL-v1-2_2019.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=PageLayout/BrechtVE_PageLayout_CERN-OHL-v1-2_2019.kicad_wks
 LastNetListRead=2ch-4-20mA.net
 CopperLayerCount=2
 BoardThickness=1.6
@@ -246,13 +256,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=PageLayout/BrechtVE_PageLayout_CERN-OHL-v1-2_2019.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1

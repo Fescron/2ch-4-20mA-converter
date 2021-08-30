@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "KiCad Project Template"
+Title "1 CH 4-20 mA to voltage converter board"
 Date "2020-03-10"
 Rev "v1.0"
-Comp "Brecht Van Eeckhoudt"
-Comment1 "kicad.brechtve.be"
+Comp "Brecht Van Eeckhoudt - KULeuven"
+Comment1 "github.brechtve.be"
 Comment2 ""
 Comment3 ""
 Comment4 ""
