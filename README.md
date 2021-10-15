@@ -16,7 +16,7 @@ To allow for extensive testing three separate GND nets/planes and a lot of test 
 
 <br/>
 
-<img src="documentation/pictures/PCB-front.png" height="400" alt="PCB front"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="documentation/pictures/PCB-back.png" height="400" alt="PCB back">
+<img src="documentation/pictures/PCB-front.png" height="390" alt="PCB front"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="documentation/pictures/PCB-back.png" height="390" alt="PCB back">
 
 <br/>
 
